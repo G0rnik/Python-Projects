@@ -1,15 +1,26 @@
-# Python-Projects
+# Cats-vs-Dogs-Differing-Model
 
-Welcome to my playground of Python experiments, where code meets caffeine, and AI occasionally tries to take over.
+This project is a deep learning-based image classification model that can distinguish between cats and dogs with (hopefully) impressive accuracy. Inspired by my coursework at Kozminski University, this model is part of my AI and Python journey.
 
-This repository is a collection of projects inspired by my coursework at Kozminski University, where I’m pursuing a Bachelor’s in Management & AI. Some of the courses that shaped these projects include:
+📌 Features
 
-Big Data and Algorithms – Because size matters.
-Introduction to Python and Machine Learning – The class where "print('Hello, World!')" turned into "let's predict the future."
-Statistics for Machine Learning – Making numbers do magic tricks.
-Advanced Python – Where Python gets dangerous.
-Social Networks Analysis with API – Spying on data (legally).
-Methods of Data Visualization – Because ugly charts hurt my soul.
-Currently, I'm diving into front-end development with WordPress while keeping my Python skills sharp. Expect a mix of AI experiments, data wizardry, and the occasional attempt at making machines understand sarcasm.
+✅ Trained using a convolutional neural network (CNN)
+✅ Dataset preprocessing & augmentation for better accuracy
+✅ Model evaluation with validation & test sets
+✅ Built with TensorFlow/Keras (or the library you used)
+✅ Simple web/app integration for real-time predictions (if applicable)
 
-Stay tuned, and if you see something weird in my code—it's either a feature or an AI uprising in progress. 🚀😎
+🚀 How It Works
+
+Feed an image of a cat or dog into the model.
+The neural network processes the image and makes a prediction.
+Get a confidence score indicating whether it's a 🐱 or 🐶.
+📂 Technologies Used
+
+Python 🐍
+TensorFlow/Keras (if applicable)
+OpenCV/Pillow for image processing
+NumPy & Pandas for data handling
+📢 Why This Project?
+
+Because the internet is 90% cats and dogs, and it's about time AI learned to tell them apart.
